@@ -1,0 +1,43 @@
+<h1 style="font-size: xx-large; text-align: center; border: 2px solid gray; padding: 3px; background-color: cadetblue;"> <b> Phone No</b></h1>
+
+<h1 style="font-size: large; text-align: center; border: 2px solid gray;">9435787157</h1>
+
+
+ <mat-accordion>
+  <mat-expansion-panel hideToggle>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <b> ADDRESS </b>
+      </mat-panel-title>
+      <mat-panel-description>
+        <b> Town near BSNl Office,Ward No.10 </b>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p><i>  Mail:  nerws.doboka@gmail.com, <br> P/O: Doboka, Pin: 782440, Dist. Hojai(Assam)</i></p>
+  </mat-expansion-panel>
+  <mat-expansion-panel (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Location
+      </mat-panel-title>
+      <mat-panel-description>
+       Google Map Location
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <a mat-raised-button color="accent" href="https://goo.gl/maps/519HMxt8GEZMdtmV9" target="_blank">Open Map</a>
+  </mat-expansion-panel>
+</mat-accordion>
+
+<h1 style="border: 2px solid blue; margin: 30px;">Thanks For Visiting our Site</h1>
+
+
+
+
+
+
+<!--web whatsapp to app -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=+917002434761 &text= HELLO SIR" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
